@@ -1,0 +1,366 @@
+html {
+    scroll-behavior: smooth;
+}
+body {
+    margin: 0;
+    height: 100vh;
+    font-family: Arial, Helvetica, sans-serif;
+    background: linear-gradient(270deg, rgba(0, 0, 255, 0), rgba(6, 191, 235, 0.1));
+}
+header {
+    padding: 0.5%;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+    background-color: white;
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+.logo{  
+    margin-left: 20px;
+    width: 60px;
+    height: auto;
+    border-radius: 55%;
+}
+.nome {
+     width: 130px;
+    height: auto;
+}
+.navegar{
+    display: flex;
+    gap: 20px;
+    position: absolute;
+    left: 30%;
+}   
+.navegar a{
+    text-decoration: none;
+    color: gray;
+    font-size: 13px;
+    justify-content: center;
+    transition: all 0.3s;
+}
+.navegar a:hover{
+    text-decoration: underline;
+    color: rgba(11, 53, 83, 0.8);
+}
+.acesso{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-left: auto;
+    margin-right: 50px;
+}
+.entrar{
+    color: rgba(11, 53, 83, 0.8);
+    border: 1px solid rgba(11, 53, 83, 0.8);
+    background-color: white;
+    text-decoration: none;
+
+    border-radius: 8px;
+    padding: 12px;  
+    font-weight: bolder;
+    font-size: 14px;
+    transition: all 0.3s;
+}
+.entrar:hover{ 
+    transform: translateY(-5px);
+    color: white;
+    background-color: rgba(11, 53, 83);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.25);
+}
+.cadastrar{
+    color: white;
+    border: 1px solid rgb(37, 150, 190);
+    background-color: rgb(37, 150, 190);
+    text-decoration: none;
+
+    border-radius: 8px;
+    padding: 12px;  
+    font-weight: bolder;
+    font-size: 14px;
+    transition: all 0.3s;
+}
+.cadastrar:hover{
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.25);
+    transform: translateY(-5px);
+}
+.menu-btn {
+    scale: 1.5;
+    margin: 0;
+    margin-top: -23px;
+    float: right;
+    margin-right: -10px;
+}
+.inicio{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 8% 8% 0 8%;
+    gap: 50px;
+}
+.informations{
+    max-width: 700px;
+}
+.tag{
+    color: rgb(37, 150, 190);
+    font-size: 14px;
+    font-weight: bolder;
+}
+.destaque{
+    font-size: 30px;
+    line-height: 1.15;
+    color: rgba(11, 40, 83, 0.9);
+    margin: 0;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+.destaque strong{
+    color: rgb(37, 150, 190);
+}
+.sub{
+    max-width: 500px;
+    color: grey;
+    font-size: 16px;
+    line-height: 1.6;
+}
+.card{
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(11, 53, 83, 0.95);
+    width: 320px;
+    height: 380px;
+    padding: 44px;
+    border-radius: 15px;
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.7);
+    box-sizing: border-box;
+    transition: all 0.3s;
+}
+.card:hover{
+    background-color: rgba(11, 53, 83)
+
+}
+.card p{
+    color: white;
+    font-size: 14px;
+}
+.card p::first-letter{
+    color: rgb(37, 150, 190);
+}
+.card h2{
+    color:aliceblue;
+    margin: 5%;
+    margin-left: auto;
+}
+.card h3{
+    color: white;
+    font-size: 15px;
+    margin: 5%;
+    margin-left: auto;
+}
+.card1{
+    margin-top: 20%;
+}
+.card2 {
+    display: flex;
+    width: 50px;
+    height: 50px;
+    background-color: rgb(37, 150, 190);
+    justify-content: center;
+    border-radius: 10px;
+    border: 1px solid;
+    border-color:rgba(11, 53, 83, 0.98);
+    box-shadow: 10px, 20px, 40px rgba(252, 253, 253, 0.9);
+    box-sizing: border-box;
+    transition: all 0.3s;
+}
+.card2:hover{
+    
+    transform: translatey(-5px);
+    box-shadow: 10px, 10px, 10px rgba(0, 0, 0, 0.9);
+}
+.card2 a{
+    text-decoration: none;
+    color: white;
+    font-size:xx-large;
+}
+.btn-agendar{
+    color: rgba(11, 53, 83, 0.8);
+    border: 1px solid rgba(11, 53, 83, 0.8);
+    background-color: white;
+    text-decoration: none;
+
+    border-radius: 8px;
+    padding: 12px;  
+    font-weight: bolder;
+    font-size: 14px;
+    transition: all 0.3s;
+}
+.btn-agendar:hover{
+    transform: translateY(-5px);
+    color: white;
+    background-color: rgba(11, 53, 83);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.25);
+}
+.btn-servicos{
+    color: white;
+    border: 1px solid rgb(37, 150, 190);
+    background-color: rgb(37, 150, 190);
+    text-decoration: none;
+
+    border-radius: 8px;
+    padding: 12px;  
+    font-weight: bolder;
+    font-size: 14px;
+    transition: all 0.3s;
+}
+.btn-servicos:hover{
+    transform: translateY(-5px);
+    border-color: rgba(11, 53, 83);
+    background-color: rgba(11, 53, 83);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.25);
+}
+.Servicos {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    padding: 20px 5%;
+    margin-top: 20%;
+}
+.servico {
+    padding: 15px;
+    margin: 0;
+    background-color: rgba(11, 53, 83, 0.8);
+    color: white;
+    text-align: center;
+    width: auto;
+    min-height: 180px;
+    border-radius: 15px;
+    transition: all 0.3s ease;
+    box-sizing: border-box;
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.3);
+}
+.servico h3{
+    font-family: 'Poppins', sans-serif;
+    font-size: 17px;
+    font-weight: 600;
+    margin: 12px 5px;
+}
+.servico p{
+    font-family: 'Poppins', sans-serif;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 1.6;
+}
+.servico:hover {
+    background-color: rgba(172, 57, 144);
+    color: white;
+    box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.5);
+    transform: scale(1.05); 
+}
+.menu-btn {
+    display: none;
+    text-decoration: none;
+    font-size: 18px;
+    color: rgba(11, 53, 83, 0.8);
+    margin-top: -3%;
+    margin-left: 30px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
+}
+.sobre-nos{
+    border: 1px solid rgba(11, 53, 83, 0.8);
+    border-radius: 15px;
+    padding: 20px;
+    margin-top: 10%;
+    display: grid;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.5);
+    transition: all 0.3s;
+}
+
+.sobre-nos:hover{
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.25);
+    box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.1);
+
+}
+.sobre-nos h2{
+    font-size: 30px;
+    color: rgba(11, 40, 83, 0.9);
+    margin: 0;
+    font-size: 50px; 
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+.sobre-nos p{
+    color: grey;
+    font-size: 16px;
+    line-height: 1.6;
+}
+.contato{
+    background-color: rgba(11, 40, 83, 0.9);
+    color:white;
+    padding: 20px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    display: grid;
+    box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.5);
+    transition: all 0.3s;
+}
+.contato:hover{
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.25);
+    box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.contato h2{
+    font-size: 30px;
+    color: white;
+    margin: 0;
+    font-size: 50px; 
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+.contato p{
+    color: white;
+    font-size: 16px;
+    line-height: 1.6;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);
+}
+footer{
+    background-color: rgba(11, 53, 83, 0.9);
+    color: white;
+    box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.5);
+}
+.rodape{
+    display: grid;
+    justify-content: center;
+    padding: 10px;
+    text-align: center;
+    gap: 10px;
+}
+.rodape p{
+    margin: 0;
+    font-size: 13px;
+}
+
+@media (max-width: 880px) {
+    .navegar {
+        display: none;
+    }
+
+    .menu-btn {
+        display: flex;
+    }
+
+    .entrar,
+    .cadastrar{
+        display: none;
+    }
+    .inicio{
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+    .card{
+        align-items: center;
+    }
+    .Servicos {
+        grid-template-columns: repeat(2, 1fr);
+        padding: 20px;
+    }
+}

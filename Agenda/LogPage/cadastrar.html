@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="login.css">
+    <link rel="icon" href="../Logo.png">
+    <title>Cadastrar</title>
+</head>
+<body>
+<header>
+    <a href="../index.html" id="logo"> <img src="../Logo.png" alt=""> </a>
+</header>
+    <main>
+        <section id="tela-cadastro">
+            <h2>Seja bem vindo!</h2>
+            <form>
+                <label for="nome completo"></label>
+                <input 
+                type="text" 
+                placeholder="Nome completo" 
+                id="nome-completo"
+            >
+
+                <label for="cpf"></label>
+                <input 
+                type="text" 
+                maxlength="14" 
+                placeholder="000.000.000-00" 
+                id="cpf"
+            >
+
+                <label for="email"></label>
+                <input 
+                type="email" 
+                placeholder="exemplo@email.com" 
+                id="email"
+            >
+
+                <label for="senha"></label>
+                <input 
+                type="password" 
+                minlength="6" 
+                placeholder="Senha" 
+                id="senha"
+            >
+
+                <label for="senha 2"></label>
+                <input 
+                type="password" 
+                minlength="6" 
+                placeholder="Confirmar Senha" 
+                id="senha-2"
+            >
+
+                <button>Cadastrar</button>
+            </form>
+            <a href="entrar.html" id="ja-tenho-conta">Já tenho uma conta</a>
+        </section>
+    </main>
+</body>
+</html>
